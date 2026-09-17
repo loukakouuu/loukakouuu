@@ -1,8 +1,7 @@
 ## 👋
 
-Alternant **data analyst**, en route vers l'ingénierie et la science des
-données. Ce qui m'intéresse : les systèmes qui transforment de la donnée brute
-en quelque chose dont on peut tirer une décision — et, accessoirement, les
+Ce qui m'intéresse : les systèmes qui transforment de la donnée brute en
+quelque chose dont on peut tirer une décision — et, accessoirement, les
 systèmes qui simulent quelque chose.
 
 ---
