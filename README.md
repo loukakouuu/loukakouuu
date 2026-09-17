@@ -42,7 +42,7 @@ la démarche y est documentée :
 
 | Projet | Sujet |
 |---|---|
-| [shopflow-main](https://github.com/loukakouuu/shopflow-main) | Chaîne de tests complète sur une API Python : unitaires, intégration, TDD, performance, sécurité |
-| [tp-devops-boutique](https://github.com/loukakouuu/tp-devops-boutique) | API FastAPI avec pipeline Jenkins et audit SonarQube |
-| [shuttle-tp](https://github.com/loukakouuu/shuttle-tp) | Audit qualité et remédiation sur une base Android legacy *(code applicatif tiers)* |
-| [TP-Architecture-Applicative-MVC](https://github.com/loukakouuu/TP-Architecture-Applicative-MVC) | Patron MVC implémenté en JavaScript natif |
+| [shopflow-testing-cicd](https://github.com/loukakouuu/shopflow-testing-cicd) | Chaîne de tests complète sur une API Python : unitaires, intégration, TDD, performance, sécurité |
+| [fastapi-devops-pipeline](https://github.com/loukakouuu/fastapi-devops-pipeline) | API FastAPI avec pipeline Jenkins et audit SonarQube |
+| [shuttle-code-audit](https://github.com/loukakouuu/shuttle-code-audit) | Audit qualité et remédiation sur une base Android legacy *(code applicatif tiers)* |
+| [mvc-vanilla-js](https://github.com/loukakouuu/mvc-vanilla-js) | Patron MVC implémenté en JavaScript natif |
