@@ -1,44 +1,64 @@
 ## 👋
 
-Développement backend et outillage, avec un faible assumé pour les systèmes qui
-simulent quelque chose.
+Alternant **data analyst**, en route vers l'ingénierie et la science des
+données. Ce qui m'intéresse : les systèmes qui transforment de la donnée brute
+en quelque chose dont on peut tirer une décision — et, accessoirement, les
+systèmes qui simulent quelque chose.
 
 ---
 
-### 🎮 Projet principal — Esport Manager
+### 📊 Esports Data Platform
 
-Un jeu de gestion d'équipe esport développé sous **Godot / GDScript**.
+Une chaîne de données complète sur l'esport professionnel, de l'ingestion
+jusqu'à la prédiction.
 
-L'idée : pas un clicker, mais une vraie simulation. On dirige une structure, on
-négocie les contrats, on recrute son encadrement, et les décisions se répercutent
-saison après saison.
+L'esport publie beaucoup de données, mais éclatées : chaque discipline a ses
+sources, ses formats et ses quotas, et aucune ne parle à l'autre. Le projet les
+réconcilie dans un modèle commun, puis s'en sert.
 
-Ce qui m'intéresse techniquement dans ce projet :
+- **Ingestion** — collecte incrémentale et idempotente sur trois sources aux
+  schémas, authentifications et quotas différents
+- **Transformation** — normalisation inter-disciplines avec dbt, tests de données
+- **Analyse & modélisation** — exploration du circuit, puis prédiction de
+  résultats avec validation temporelle
 
-- **Architecture modulaire par discipline** — un registre de modules permet d'ajouter
-  un jeu (Valorant, CS2) sans toucher au moteur commun
-- **Moteur de compétition** — génération de saisons, formats de tournois, simulation
-  de matchs
-- **Systèmes interconnectés** — transferts, progression des joueurs, staff, direction
-  par IA
-- **Données réelles** — import et modélisation des équipes et rosters existants
+`Python` · `DuckDB` · `dbt` · `pandas` · `scikit-learn`
+
+→ **[Voir le projet](https://github.com/loukakouuu/esports-data-platform)** *(en construction)*
+
+---
+
+### 🎮 Esport Manager
+
+Un jeu de gestion d'équipe esport développé sous **Godot / GDScript**. Pas un
+clicker : une simulation où l'on dirige une structure, négocie les contrats et
+voit les décisions se répercuter saison après saison.
+
+- **Architecture modulaire par discipline** — un registre de modules permet
+  d'ajouter un jeu (Valorant, CS2) sans toucher au moteur commun
+- **Moteur de simulation** — génération de saisons, formats de tournois,
+  progression des joueurs, marché des transferts
+- **Sa propre chaîne de données** — import, modélisation et validation des
+  équipes et effectifs réels
+- **566 vérifications automatisées** sur 42 suites de tests
 
 → **[Voir le projet](https://github.com/loukakouuu/esport-manager)**
 
 ---
 
-### 🛠️ Compétences travaillées
+### 🛠️ Compétences
 
-**Langages** · GDScript · Python · Java · JavaScript
-**Qualité & CI/CD** · Jenkins · SonarQube · tests unitaires et d'intégration · TDD
-**Outils** · Git · Docker · FastAPI
+**Data** · Python · SQL · pandas · DuckDB · dbt · scikit-learn
+**Qualité & CI/CD** · Jenkins · SonarQube · pytest · tests unitaires, intégration et données · TDD
+**Autres langages** · GDScript · Java · JavaScript
+**Outils** · Git · Docker
 
 ---
 
 ### 📚 Travaux académiques
 
-Ces dépôts sont des projets réalisés en formation. Je les garde publics parce que
-la démarche y est documentée :
+Projets réalisés en formation, gardés publics parce que la démarche y est
+documentée :
 
 | Projet | Sujet |
 |---|---|
