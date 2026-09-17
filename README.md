@@ -27,6 +27,26 @@ réconcilie dans un modèle commun, puis s'en sert.
 
 ---
 
+### 🗳️ Electio Analytics
+
+Une chaîne décisionnelle complète sur les élections françaises, de la donnée
+brute ouverte jusqu'à la prédiction. Projet scolaire mené en équipe.
+
+- **Architecture lakehouse** — ingestion bronze, transformation silver, datamart
+  gold en schéma étoile
+- **Données publiques** — INSEE et data.gouv.fr, téléchargées et vérifiées par
+  empreinte SHA-256
+- **Modélisation** — benchmark de modèles, matrice de confusion, explicabilité
+  des variables, suivi des expériences avec MLflow
+- **Gouvernance** — dictionnaire de données, lignage, matrice qualité, note RGPD
+- **Restitution** — application Streamlit cartographique et simulateur
+
+`Python` · `PostgreSQL` · `Jupyter` · `MLflow` · `Streamlit` · `Docker`
+
+→ **[Voir le projet](https://github.com/loukakouuu/TP-electio-analytics)**
+
+---
+
 ### 🎮 Esport Manager
 
 Un jeu de gestion d'équipe esport développé sous **Godot / GDScript**. Pas un
@@ -47,7 +67,7 @@ voit les décisions se répercuter saison après saison.
 
 ### 🛠️ Compétences
 
-**Data** · Python · SQL · pandas · DuckDB · dbt · scikit-learn
+**Data** · Python · SQL · pandas · DuckDB · dbt · scikit-learn · MLflow · Streamlit
 **Qualité & CI/CD** · Jenkins · SonarQube · pytest · tests unitaires, intégration et données · TDD
 **Autres langages** · GDScript · Java · JavaScript
 **Outils** · Git · Docker
@@ -61,6 +81,7 @@ documentée :
 
 | Projet | Sujet |
 |---|---|
+| [TP-futurekawa-supervision](https://github.com/loukakouuu/TP-futurekawa-supervision) | Plateforme de supervision multi-sites : API Node, front React, capteurs IoT simulés, Docker, Jenkins |
 | [TP-shopflow-testing-cicd](https://github.com/loukakouuu/TP-shopflow-testing-cicd) | Chaîne de tests complète sur une API Python : unitaires, intégration, TDD, performance, sécurité |
 | [TP-fastapi-devops-pipeline](https://github.com/loukakouuu/TP-fastapi-devops-pipeline) | API FastAPI avec pipeline Jenkins et audit SonarQube |
 | [TP-shuttle-code-audit](https://github.com/loukakouuu/TP-shuttle-code-audit) | Audit qualité et remédiation sur une base Android legacy *(code applicatif tiers)* |
